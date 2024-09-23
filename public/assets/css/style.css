@@ -1,0 +1,154 @@
+:root{
+    --grey:#F8F8F8;
+    --green:#2EBB77;
+    --dgrey:#7E7E7E;
+    --secgrey:#F5F5F5;
+     --red:#F09155;
+    --green:#2EBB77;
+    --purple:#B479D9;
+    --purpleSec:#B479D9;
+    --lastgrey: #E2F5F2;
+    --footerGrey:#F5F5F5;
+
+}
+
+body {
+    font-family: 'Plus Jakarta Sans';
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: white;
+   
+  }
+ 
+.navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:active,
+.navbar .navbar-nav .nav-item .nav-link:focus,
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    box-shadow: none;
+    color:var(--green);
+}
+
+.headT{
+    background-color:var(--grey);
+
+}
+
+.main{
+    display: flex;
+}
+
+.mainf{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+margin-left: -10%;    
+}
+
+.cad-title{
+    font-size: 32px;
+   font-weight: 700;
+   margin-left: 20%;
+   margin-top: -160%;
+}
+.cad-small-title{
+    color:var(--dgrey) ;
+    font-size: 18px;
+    margin-left: 20%;
+
+}
+.row .btn{
+    background-color: #2EBB77;
+     color: white;
+      font-size: 16px; 
+      font-weight: 700; 
+      border-radius: 12px;
+      width: 212px;
+      height: 56px;
+      line-height:40px ;
+      text-align: center;
+      margin-left: 20%;
+}
+
+.Texts{
+    font-size: 24px;
+    font-weight: 700;
+}
+.Textss{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--dgrey);
+}
+
+.cad-body{
+    top: 30%;
+}
+
+.forths{
+    font-size: 40px;
+    font-weight: 700;
+}
+.forthss{
+    color: var(--dgrey);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fiths{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.imgf{
+    border-radius: 30px;
+}
+
+.sixths{
+    background-color: var(--grey); 
+}
+
+.sixthsT{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sixthsTs{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--dgrey);
+}
+
+.greybg{
+    background-color: var(--grey);
+}
+
+.container .btnl{
+    background-color: #2EBB77;
+    color: white;
+     font-size: 16px; 
+     font-weight: 700; 
+     border-radius: 12px;
+     width: 212px;
+     height: 56px;
+     line-height:40px ;
+     text-align: center;
+
+}
+
+.lasts{
+    background-color: var(--secgrey);
+     border-radius: 12px;
+}
+.thirdbutn{
+left: 50%;
+top: 30%;
+}
+
